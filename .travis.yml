@@ -7,3 +7,15 @@ before_install:
 
 script:
   - docker run -e CI=true miggulondon/project-generation yarn test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "docker"
+  env: "Project-generation-env"
+  bucket_name: "elasticbeanstalk-us-east-1-244542120433"
+  bucket_path: "docker-react"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  access_secret_id: $AWS_SECRET_KEY
