@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   edge: "true"
   region: "us-east-1"
-  app: "project-generation"
+  app: "web"
   env: "Project-generation-env"
   bucket_name: "elasticbeanstalk-us-east-1-244542120433"
   bucket_path: "docker-react"
