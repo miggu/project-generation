@@ -15,7 +15,7 @@ deploy:
   app: "Joy"
   env: "Joy-env"
   bucket_name: "elasticbeanstalk-us-east-1-244542120433"
-  bucket_path: "docker-react"
+  bucket_path: "Joy"
   on:
     branch: main
   access-key-id: $AWS_ACCESS_KEY
