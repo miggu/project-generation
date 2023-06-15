@@ -14,7 +14,7 @@ deploy:
   region: "us-east-1"
   app: "Joy"
   env: "Joy-env"
-  bucket_name: "elasticbeanstalk-us-east-1-244542120433"
+  bucket_name: "elasticbeanstalk-us-east-1-424137571254"
   bucket_path: "Joy"
   on:
     branch: main
